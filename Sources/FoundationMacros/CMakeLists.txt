@@ -22,6 +22,9 @@ if(POLICY CMP0157)
     # New Swift build model: improved incremental build performance and LSP support
   cmake_policy(SET CMP0157 NEW)
 endif()
+if(POLICY CMP0195)
+  cmake_policy(SET CMP0195 NEW)
+endif()
 
 project(FoundationMacros
   LANGUAGES Swift)

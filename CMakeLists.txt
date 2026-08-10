@@ -24,6 +24,10 @@ if(POLICY CMP0157)
     cmake_policy(SET CMP0157 NEW)
 endif()
 
+if(POLICY CMP0195)
+  cmake_policy(SET CMP0195 NEW)
+endif()
+
 project(SwiftFoundation
     LANGUAGES C Swift)
 
